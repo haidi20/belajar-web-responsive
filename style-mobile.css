@@ -1,0 +1,32 @@
+@media only screen and (max-width: 700px) {
+    nav ul {
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        background: linear-gradient(#ff469f, #ff6062);
+    }
+    nav ul li { 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    nav ul li a {
+        color: white;
+    }
+
+    .menu-icon {
+        width: 25px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 0;
+    }
+}

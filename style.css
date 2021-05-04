@@ -30,6 +30,7 @@
 .menu-icon {
     width: 25px;
     cursor: pointer;
+    display: none;
 }
 
 nav {
@@ -63,7 +64,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 0;
+    margin: 60px 0;
 }
 
 .col-1 {
@@ -147,5 +148,25 @@ button:hover {
     border-radius: 20px 0 0 20px;
     transform: translateX(150px);
     z-index: -1;
+}
+
+.btn-add {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-add img {
+    width: 35px;
+    margin-bottom: 5px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links img {
+    height: 13px;
+    margin: 20px;
+    cursor: pointer;
 }
 /* end body */
